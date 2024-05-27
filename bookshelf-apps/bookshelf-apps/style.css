@@ -1,0 +1,75 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head_bar {
+  background-color: #af2030;
+  color: #f9f9f9;
+  padding: 1rem;
+  text-align: center;
+}
+span {
+  color: #ed162f;
+}
+.input_section,
+.search_section,
+.book_shelf {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  margin-bottom: 1rem;
+}
+
+.input_inline {
+  display: flex;
+  align-items: center;
+}
+
+.input_inline label {
+  margin-right: 0.5rem;
+}
+
+button {
+  background-color: #4a555e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.book_item {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.book_item .action {
+  margin-top: 1rem;
+}
+
+button.green {
+  background-color: #4a555e;
+}
+
+button.red {
+  background-color: #af2030;
+  margin-left: 0.5rem;
+}
